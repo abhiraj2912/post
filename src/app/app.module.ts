@@ -7,6 +7,7 @@ import { AddPostComponent } from './add-post/add-post.component';
 import { ViewPostComponent } from './view-post/view-post.component';
 import { HttpClientModule } from "@angular/common/http"
 import { RouterModule, Routes } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myroute:Routes=[
   {
@@ -23,7 +24,8 @@ const myroute:Routes=[
   declarations: [
     AppComponent,
     AddPostComponent,
-    ViewPostComponent
+    ViewPostComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
